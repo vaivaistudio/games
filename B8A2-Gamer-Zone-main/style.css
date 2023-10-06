@@ -1,0 +1,74 @@
+.logo{
+    margin-left:200px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(164, 199, 199);
+    padding: 20px;
+    
+}
+.nav-manu{
+    display: flex;
+   
+    margin-left: 280px;
+}
+.nav-manu img{
+    width: 40px;
+    margin-left: 20px;
+}
+/* bannar section css */
+.bannar-section{
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(213, 235, 235);
+    align-items: center;
+}
+.bannar-text{
+    margin-left: 200px;
+}
+.bannar-text h1{
+    color:rgb(185, 25, 159); 
+   font-size: 40px;
+}
+.bannar-text button{
+    background-color: rgb(185, 25, 159);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-img img{
+    align-items: center;
+    width: 500px;
+}
+.body-text{
+    text-align: center;
+}
+.body-text span{
+    color: blueviolet;
+}
+.body{
+    
+}
+.body-img{
+display: flex;
+   
+}
+.item{
+   width: 300px;
+   text-align: center;
+}
+.item img{
+    width: 200px;
+}
+.footer{
+    background-color: rgb(39, 37, 37);
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
